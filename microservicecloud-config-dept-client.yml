@@ -25,9 +25,9 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/ #注册中心地址
+      defaultZone: http://eureka7004.com:7004/eureka/#注册中心地址
   instance:
-    instance-id: microservicecloud-dept8001 #eureka中微服务实例别名
+    instance-id: microservicecloud-config-dept-8004 #eureka中微服务实例别名
     prefer-ip-address: true #显示微服务实例的IP
 
 info:
@@ -64,9 +64,9 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/ #注册中心地址
+      defaultZone: http://eureka7004.com:7004/eureka/ #注册中心地址
   instance:
-    instance-id: microservicecloud-dept8001 #eureka中微服务实例别名
+    instance-id: microservicecloud-config-dept-8004 #eureka中微服务实例别名
     prefer-ip-address: true #显示微服务实例的IP
 
 info:
